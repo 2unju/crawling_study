@@ -1,2 +1,4 @@
 /venv
 /.idea
+/t03
+*.json
