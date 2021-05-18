@@ -22,7 +22,5 @@ data = {}
 for title in notices:
     data[title.text] = title.get('href')
 
-print(data)
-
-# with open(os.path.join(BASE_DIR, 'result.json'), 'w+', encoding='UTF-8-sig') as json_file:
-#     json.dump(data, json_file, ensure_ascii=False)
+with open(os.path.join(BASE_DIR, 'result.json'), 'w+', encoding='UTF-8-sig') as json_file:
+     json.dump(data, json_file, ensure_ascii=False)

@@ -2,3 +2,6 @@
 /.idea
 /t03
 *.json
+/t05
+/t06
+*.whl
